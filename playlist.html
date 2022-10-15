@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://kit.fontawesome.com/5ccc441228.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="playlist.css" />
+    <title>Static Template</title>
+  </head>
+  <body>
+      <!-- header -->
+    <header class="overflow-hidden">
+        <!-- navbar -->
+      <nav id="navbar-container" class="navbar  navbar-expand-md navbar-dark pt-2 pb-4">
+          <a class="navbar-brand" href="#"><img class="brand-logo" src="pictures/brand-logo.png"</i></a>
+        
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                  <li class="nav-item ml-5">
+                      <a class="nav-link" href="#home">Favorites</a>
+                  </li>
+              </ul>
+              <form class="form-inline mt-2 mt-lg-0">
+                  <div class="input-group ">
+                          <span class="input-group-text search-icon  header-form" id="basic-addon1"><i class="fa fa-search"></i></span>
+                      <input class="header-input header-form" type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="basic-addon1">
+                      <div class="input-group-prepend">
+                          <span class="input-group-text microphone-icon header-form" id="basic-addon1"><i class="fa-solid fa-microphone"></i></span>
+                      </div>
+                
+                  </div>
+              </form>
+              <ul class="nav navbar-nav navbar-right mx-md-4">
+                  <li class="my-2 my-md-0 d-block d-md-inline-block" id="notification-icon"><i " class="fa-solid fa-bell"></i></li>
+                  <li class="mx-md-5"><a href="#"><img id="profile-img" src="pictures/profile.jpg" ></a></li>
+              </ul>
+              
+          </div>
+      </nav>
+    </header>
+    <!-- main -->
+   <Main id="main" class="pl-5 mt-3">
+       <!-- Main-header -->
+       <header id="main-header" class="d-flex">
+           <div class=" left-section d-flex">
+               <img width="100%" height="100%" src="pictures/latest.jpg" alt="Error to load, try again later.">
+           </div>
+           <div class="right-section w-100">
+           <div class="right-top-section w-100 d-flex justify-content-between">
+               <div>
+                <h5>So High </h5>
+                  </div>
+                  <div class="grey-color followers">
+                   2M followers
+                    </div>
+               </div>
+               <div class="bottom-right-section " >
+                 <p class="grey-color" > Sidhu Moosewala</p>
+                 <p class="grey-color">
+                        Shubhdeep Singh Sidhu, better known by his stage name 
+                        Sidhu Moose Wala, was an Indian singer, rapper, songwriter and actor associated with
+                         Punjabi music and Punjabi cinema. Moose Wala started his career as a songwriter for the song 
+                          "License" by Ninja, and began his singing career on a duet song titled "G Wagon". 
+                          Following his debut, he collaborated with Brown Boyz for various tracks which were released 
+                          by Humble Music. 
+                 </p>
+                 <button class="play-button">
+                     Play All
+                 </button>
+                 <button class="follow-button">
+                       Follow
+                    </button>
+                    <p class="under-button-content">150 Tracks | 48 Albums </p>
+                        </div>
+            </div>
+       </header>
+       <!--Left-Playlist -->
+       <section class="playlist">
+         
+                    <div class="song-list">
+                    <div class="left-side">
+                    <div class="song-number">
+                        01
+                    </div>
+                    <div>
+                       <img class="song-img" src="pictures/song-1.jpg">
+                    </div>
+                    <div class="song-discription">
+                       <p class="song-name">Jatt Da Mukabla</p>
+                       <p class="song-singer">Sidhu Moosewala</p>
+                    </div>
+                    </div>
+                    <div class="right-side ">
+                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            <i class=" mx-4 fa-solid fa-plus"></i>
+                     </div>
+                    </div>      
+                    <div class="song-list">
+                        <div class="left-side">
+                        <div class="song-number">
+                            02
+                        </div>
+                        <div>
+                            <img class="song-img" src="pictures/punjabi-song-thumbnail-6.jpg">
+                        </div>
+                        <div class="song-discription">
+                            <p class="song-name">Masoomiyat</p>
+                            <p class="song-singer">Satinder Sartaj</p>
+                        </div>
+                        </div>
+                        <div class="right-side ">
+                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                <i class=" mx-4 fa-solid fa-plus"></i>
+
+                            </div>
+                        </div>
+                        <div class="song-list">
+                                <div class="left-side">
+                                <div class="song-number">
+                                    03
+                                </div>
+                                <div>
+                                   <img class="song-img" src="pictures/punjabi-song-thumbnail-2.jpg">
+                                </div>
+                                <div class="song-discription">
+                                   <p class="song-name">295</p>
+                                   <p class="song-singer">Sidhu Moosewala</p>
+                                </div>
+                                </div>
+                                <div class="right-side ">
+                                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                        <i class=" mx-4 fa-solid fa-plus"></i>
+
+                                    </div>
+                                </div>      
+                                <div class="song-list">
+                                        <div class="left-side">
+                                        <div class="song-number">
+                                            04
+                                        </div>
+                                        <div>
+                                           <img class="song-img" src="pictures/punjabi-song-thumbnail-1.jpg">
+                                        </div>
+                                        <div class="song-discription">
+                                           <p class="song-name">Born To Shine</p>
+                                           <p class="song-singer">Diljit Dosanjh</p>
+                                        </div>
+                                        </div>
+                                        <div class="right-side ">
+                                           <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                           <i class=" mx-4 fa-solid fa-plus"></i>
+                                        </div>
+                                        </div>  
+                                        <div class="song-list">
+                                                <div class="left-side">
+                                                <div class="song-number">
+                                                    05
+                                                </div>
+                                                <div>
+                                                   <img class="song-img" src="pictures/song-thumnail-5.gif">
+                                                </div>
+                                                <div class="song-discription">
+                                                   <p class="song-name">Tum Hi Ho</p>
+                                                   <p class="song-singer">Arijit Singh</p>
+                                                </div>
+                                                </div>
+                                                <div class="right-side ">
+                                                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                                        <i class=" mx-4 fa-solid fa-plus"></i>
+
+                                                    </div>
+                                                </div>      
+                                                <div class="song-list">
+                                                    <div class="left-side">
+                                                    <div class="song-number">
+                                                        06
+                                                    </div>
+                                                    <div>
+                                                        <img class="song-img" src="pictures/song-thumnail-1.gif">
+                                                    </div>
+                                                    <div class="song-discription">
+                                                        <p class="song-name">Kajra Ra</p>
+                                                        <p class="song-singer">Alisha Chinoy</p>
+                                                    </div>
+                                                    </div>
+                                                    <div class="right-side ">
+                                                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                                            <i class=" mx-4 fa-solid fa-plus"></i>
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="song-list">
+                                                            <div class="left-side">
+                                                            <div class="song-number">
+                                                                07
+                                                            </div>
+                                                            <div>
+                                                               <img class="song-img" src="pictures/song-3.jpg">
+                                                            </div>
+                                                            <div class="song-discription">
+                                                               <p class="song-name">Temporary pyar</p>
+                                                               <p class="song-singer">Kaka</p>
+                                                            </div>
+                                                            </div>
+                                                            <div class="right-side ">
+                                                                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                                                    <i class=" mx-4 fa-solid fa-plus"></i>
+
+                                                                </div>
+                                                            </div>      
+                                                            <div class="song-list">
+                                                                    <div class="left-side">
+                                                                    <div class="song-number">
+                                                                        08
+                                                                    </div>
+                                                                    <div>
+                                                                       <img class="song-img" src="pictures/song-4.jpg">
+                                                                    </div>
+                                                                    <div class="song-discription">
+                                                                       <p class="song-name">Mexico </p>
+                                                                       <p class="song-singer">Karan Aujla</p>
+                                                                    </div>
+                                                                    </div>
+                                                                    <div class="right-side ">
+                                                                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                                                            <i class=" mx-4 fa-solid fa-plus"></i>
+
+                                                                        </div>
+                                                                    </div> 
+                                                                    <div class="song-list">
+                                                                            <div class="left-side">
+                                                                            <div class="song-number">
+                                                                                09
+                                                                            </div>
+                                                                            <div>
+                                                                               <img class="song-img" src="pictures/punjabi-song-thumbnail-3.jpg">
+                                                                            </div>
+                                                                            <div class="song-discription">
+                                                                               <p class="song-name">Chal Jindiye</p>
+                                                                               <p class="song-singer">Amrinder Gill</p>
+                                                                            </div>
+                                                                            </div>
+                                                                            <div class="right-side ">
+                                                                                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                                                                    <i class=" mx-4 fa-solid fa-plus"></i>
+
+                                                                                </div>
+                                                                            </div>      
+                                                                            <div class="song-list">
+                                                                                <div class="left-side">
+                                                                                <div class="song-number">
+                                                                                    10
+                                                                                </div>
+                                                                                <div>
+                                                                                    <img class="song-img" src="pictures/song-thumnail-3.gif">
+                                                                                </div>
+                                                                                <div class="song-discription">
+                                                                                    <p class="song-name">Teri Mitti</p>
+                                                                                    <p class="song-singer">B Praak</p>
+                                                                                </div>
+                                                                                </div>
+                                                                                <div class="right-side ">
+                                                                                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                                                                        <i class=" mx-4 fa-solid fa-plus"></i>
+
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="song-list">
+                                                                                        <div class="left-side">
+                                                                                        <div class="song-number">
+                                                                                            11
+                                                                                        </div>
+                                                                                        <div>
+                                                                                           <img class="song-img" src="pictures/song-thumnail-6.gif">
+                                                                                        </div>
+                                                                                        <div class="song-discription">
+                                                                                           <p class="song-name">Raabta</p>
+                                                                                           <p class="song-singer">Arijit Singh</p>
+                                                                                        </div>
+                                                                                        </div>
+                                                                                        <div class="right-side ">
+                                                                                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                                                                                <i class=" mx-4 fa-solid fa-plus"></i>
+
+                                                                                            </div>
+                                                                                        </div>      
+                                                                                        <div class="song-list">
+                                                                                                <div class="left-side">
+                                                                                                <div class="song-number">
+                                                                                                    12
+                                                                                                </div>
+                                                                                                <div>
+                                                                                                   <img class="song-img" src="pictures/punjabi-song-thumbnail-4.jpg">
+                                                                                                </div>
+                                                                                                <div class="song-discription">
+                                                                                                   <p class="song-name">Majhail</p>
+                                                                                                   <p class="song-singer">AP Dhillon</p>
+                                                                                                </div>
+                                                                                                </div>
+                                                                                                <div class="right-side ">
+                                                                                                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                                                                                        <i class=" mx-4 fa-solid fa-plus"></i>
+
+                                                                                                    </div>
+                                                                                                </div>         
+       </section>
+
+   </Main>
+   <!-- Aside -->
+   <aside id="aside" class="pl-3 mt-3">
+       <!-- Silimar-artist-section -->
+       <section id="similar-artist">
+       <div class="d-flex justify-content-between mb-2 mt-1 ">
+           <div>
+               <h5> Similar Artist </h5>
+           </div>
+           <div class=" mt-2">
+               <p class="view-text grey-color ">View All</p>
+            </div>
+       </div>
+       <div class="latest-release-full-container  ml-0 ">
+            <div class="playlist-outer-container" >
+                <div class="first-inner-container" >
+                <div class="picture-container ">
+                    <img src="pictures/diljit pic.jpg">
+                </div>
+                <div class="name-date-container ">
+                    <p class="name">Rangroot</p>
+                    <p class="date grey-color">diljit Dosanjh</p>
+                </div>
+                </div>
+                <div class="second-inner-container ">
+                        <i class="fa-solid fa-ellipsis"></i>
+                        <p class="grey-color"> 3:36</p>
+                </div>
+
+            </div>
+            <div class="playlist-outer-container" >
+                    <div class="first-inner-container" >
+                    <div class="picture-container ">
+                        <img src="pictures/diljit pic.jpg">
+                    </div>
+                    <div class="name-date-container ">
+                        <p class="name">Rangroot</p>
+                        <p class="date grey-color">diljit Dosanjh</p>
+                    </div>
+                    </div>
+                    <div class="second-inner-container ">
+                            <i class="fa-solid fa-ellipsis"></i>
+                            <p class="grey-color"> 3:36</p>
+                    </div>
+    
+                </div>
+                <div class="playlist-outer-container" >
+                        <div class="first-inner-container" >
+                        <div class="picture-container ">
+                            <img src="pictures/diljit pic.jpg">
+                        </div>
+                        <div class="name-date-container ">
+                            <p class="name">Rangroot</p>
+                            <p class="date grey-color">diljit Dosanjh</p>
+                        </div>
+                        </div>
+                        <div class="second-inner-container ">
+                                <i class="fa-solid fa-ellipsis"></i>
+                                <p class="grey-color"> 3:36</p>
+                        </div>
+                    </div>
+        </div>
+    </section>
+    <!-- Recently-played-section -->
+    <section id="Recently-played">
+            <div class="d-flex justify-content-between mb-2 mt-5">
+                    <div>
+                        <h5> Recently Played </h5>
+                    </div>
+                    <div class=" mt-2">
+                        <p class="view-text grey-color ">View All</p>
+                     </div>
+                </div>
+   
+    <div class="playlist" id="recently-played-list">
+         
+            <div class="song-list ">
+            <div class="left-side">
+            <div class="song-number">
+                01
+            </div>
+            <div>
+               <img class="song-img" src="pictures/song-1.jpg">
+            </div>
+            <div class="song-discription">
+               <p class="song-name">Jatt Da Mukabla</p>
+               <p class="song-singer">Sidhu Moosewala</p>
+            </div>
+            </div>
+            <div class="right-side ">
+                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+             </div>
+            </div>      
+            <div class="song-list">
+                <div class="left-side">
+                <div class="song-number">
+                    02
+                </div>
+                <div>
+                    <img class="song-img" src="pictures/punjabi-song-thumbnail-6.jpg">
+                </div>
+                <div class="song-discription">
+                    <p class="song-name">Masoomiyat</p>
+                    <p class="song-singer">Satinder Sartaj</p>
+                </div>
+                </div>
+                <div class="right-side ">
+                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+
+                    </div>
+                </div>
+                <div class="song-list">
+                        <div class="left-side">
+                        <div class="song-number">
+                            03
+                        </div>
+                        <div>
+                           <img class="song-img" src="pictures/punjabi-song-thumbnail-2.jpg">
+                        </div>
+                        <div class="song-discription">
+                           <p class="song-name">295</p>
+                           <p class="song-singer">Sidhu Moosewala</p>
+                        </div>
+                        </div>
+                        <div class="right-side ">
+                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+
+                            </div>
+                        </div>      
+                        <div class="song-list">
+                                <div class="left-side">
+                                <div class="song-number">
+                                    04
+                                </div>
+                                <div>
+                                   <img class="song-img" src="pictures/punjabi-song-thumbnail-1.jpg">
+                                </div>
+                                <div class="song-discription">
+                                   <p class="song-name">Born To Shine</p>
+                                   <p class="song-singer">Diljit Dosanjh</p>
+                                </div>
+                                </div>
+                                <div class="right-side ">
+                                   <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                </div>
+                                </div>  
+                                <div class="song-list">
+                                        <div class="left-side">
+                                        <div class="song-number">
+                                            05
+                                        </div>
+                                        <div>
+                                           <img class="song-img" src="pictures/song-thumnail-5.gif">
+                                        </div>
+                                        <div class="song-discription">
+                                           <p class="song-name">Tum Hi Ho</p>
+                                           <p class="song-singer">Arijit Singh</p>
+                                        </div>
+                                        </div>
+                                        <div class="right-side ">
+                                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+
+                                            </div>
+                                        </div>      
+                                        <div class="song-list">
+                                            <div class="left-side">
+                                            <div class="song-number">
+                                                06
+                                            </div>
+                                            <div>
+                                                <img class="song-img" src="pictures/song-thumnail-1.gif">
+                                            </div>
+                                            <div class="song-discription">
+                                                <p class="song-name">Kajra Ra</p>
+                                                <p class="song-singer">Alisha Chinoy</p>
+                                            </div>
+                                            </div>
+                                            <div class="right-side ">
+                                                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+
+                                                </div>
+                                            </div>
+                                            <div class="song-list">
+                                                    <div class="left-side">
+                                                    <div class="song-number">
+                                                        07
+                                                    </div>
+                                                    <div>
+                                                       <img class="song-img" src="pictures/song-3.jpg">
+                                                    </div>
+                                                    <div class="song-discription">
+                                                       <p class="song-name">Temporary pyar</p>
+                                                       <p class="song-singer">Kaka</p>
+                                                    </div>
+                                                    </div>
+                                                    <div class="right-side ">
+                                                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+
+                                                        </div>
+                                                    </div>      
+                                                    <div class="song-list">
+                                                            <div class="left-side">
+                                                            <div class="song-number">
+                                                                08
+                                                            </div>
+                                                            <div>
+                                                               <img class="song-img" src="pictures/song-4.jpg">
+                                                            </div>
+                                                            <div class="song-discription">
+                                                               <p class="song-name">Mexico </p>
+                                                               <p class="song-singer">Karan Aujla</p>
+                                                            </div>
+                                                            </div>
+                                                            <div class="right-side ">
+                                                                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+
+                                                                </div>
+                                                            </div> 
+                                                            <div class="song-list">
+                                                                    <div class="left-side">
+                                                                    <div class="song-number">
+                                                                        09
+                                                                    </div>
+                                                                    <div>
+                                                                       <img class="song-img" src="pictures/punjabi-song-thumbnail-3.jpg">
+                                                                    </div>
+                                                                    <div class="song-discription">
+                                                                       <p class="song-name">Chal Jindiye</p>
+                                                                       <p class="song-singer">Amrinder Gill</p>
+                                                                    </div>
+                                                                    </div>
+                                                                    <div class="right-side ">
+                                                                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+
+                                                                        </div>
+                                                                    </div>      
+                                                                    <div class="song-list">
+                                                                        <div class="left-side">
+                                                                        <div class="song-number">
+                                                                            10
+                                                                        </div>
+                                                                        <div>
+                                                                            <img class="song-img" src="pictures/song-thumnail-3.gif">
+                                                                        </div>
+                                                                        <div class="song-discription">
+                                                                            <p class="song-name">Teri Mitti</p>
+                                                                            <p class="song-singer">B Praak</p>
+                                                                        </div>
+                                                                        </div>
+                                                                        <div class="right-side ">
+                                                                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="song-list">
+                                                                                <div class="left-side">
+                                                                                <div class="song-number">
+                                                                                    11
+                                                                                </div>
+                                                                                <div>
+                                                                                   <img class="song-img" src="pictures/song-thumnail-6.gif">
+                                                                                </div>
+                                                                                <div class="song-discription">
+                                                                                   <p class="song-name">Raabta</p>
+                                                                                   <p class="song-singer">Arijit Singh</p>
+                                                                                </div>
+                                                                                </div>
+                                                                                <div class="right-side ">
+                                                                                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+
+                                                                                    </div>
+                                                                                </div>      
+                                                                                <div class="song-list">
+                                                                                        <div class="left-side">
+                                                                                        <div class="song-number">
+                                                                                            12
+                                                                                        </div>
+                                                                                        <div>
+                                                                                           <img class="song-img" src="pictures/punjabi-song-thumbnail-4.jpg">
+                                                                                        </div>
+                                                                                        <div class="song-discription">
+                                                                                           <p class="song-name">Majhail</p>
+                                                                                           <p class="song-singer">AP Dhillon</p>
+                                                                                        </div>
+                                                                                        </div>
+                                                                                        <div class="right-side ">
+                                                                                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+
+                                                                                            </div>
+                                                                                        </div>         
+        
+                                                                                    </div>
+                                                                                </section>
+                                                                                </aside>
+                                                                                <!-- footer-Music-controls -->
+                                                                                <footer id="music-controls" class="d-flex justify-content-between w-100">
+                                                                                    <div class="controls-left-section d-flex">
+                                                                                      <div>
+                                                                                              <img src="pictures/latest.jpg">
+                                                                                        </div>
+                                                                                        <div class="song-discription">
+                                                                                          <p class="mb-0 left-song-name"> So High by Sidhu</p>
+                                                                                          <p class="left-song-singer"> Sidhu Moosewala </p>
+                                                                                          </div>
+                                                                                          <div>
+                                                                                                  <i class=" mr-1 fa fa-heart-o" aria-hidden="true"></i>
+                                                                                                  <i class="fa-solid fa-ban"></i>
+                                                                                              </div>
+                                                                                    </div>
+                                                                                      <div class="controls-middle-section d-flex">
+                                                                                          
+                                                                                          <div>
+                                                                                                  <i class="fa fa-random" aria-hidden="true"></i>    
+                                                                                           </div> 
+                                                                                           <div>
+                                                                                                  <i class="fa fa-step-backward" aria-hidden="true"></i>
+                                                                                              </div>
+                                                                                              <div>
+                                                                                                      <i class="h4 fa-regular fa-circle-pause"></i>
+                                                                                                                          </div>
+                                                                                                  <div>
+                                                                                                          <i class="fa fa-step-forward" aria-hidden="true"></i>
+                                                                                                      </div>
+                                                                                                      <div>
+                                                                                                              <i class="fa-solid fa-repeat"></i>
+                                                                                                          </div>
+                                                                                                          <div class="music-bar">
+                                                                                                              <div class="music-outer-bar"> 
+                                                                                                              </div>
+                                                                                                      </div>
+                                                                                      </div>
+                                                                                      <div class="controls-right-section d-flex ">
+                                                                                      <div> 
+                                                                                              <i class="fa fa-align-justify" aria-hidden="true"></i>
+                                                                                       </div>
+                                                                                       <div class="ml-2"> 
+                                                                                              <i class="fa-solid fa-computer"></i>
+                                                                                          </div>
+                                                                                          <div class="ml-2"> 
+                                                                                                  <i class="fa-solid fa-volume-low"></i>
+                                                                                              </div>
+                                                                                              <div class="volume-bar">
+                                                                                                  <div class="outer-bar"> </div>
+                                                                                                  </div>
+                                                                                                  <div> 
+                                                                                                          <i class="fa fa-expand" aria-hidden="true"></i>
+                                                                                                      </div>
+                                                                                      </div>
+                                                                                </footer>
+
+
+    
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+  </html>
