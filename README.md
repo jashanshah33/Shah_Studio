@@ -4,7 +4,7 @@ Description:
 * Simple music-player website made with HTML and CSS only.
 
 Action:
-* Click on Sidhu Moosewala from artist list for next page.
+* Click on Sidhu Moosewala from popular artists list for next page.
 
 
 website URL:
